@@ -1,0 +1,14 @@
+#http://perishablepress.com/better-default-directory-views-with-htaccess/
+# STRONG HTACCESS PROTECTION
+<Files ~ "^.*\.([Hh][Tt][Aa])">
+    order allow,deny
+    deny from all
+</Files>
+
+<IfModule mod_autoindex.c>
+# SET INDEX OPTIONS
+IndexOptions IgnoreCase FancyIndexing FoldersFirst NameWidth=* SuppressHTMLPreamble SuppressRules HTMLTable XHTML
+
+ReadmeName /jPlayer-for-httpd/player.html
+IndexIgnore jPlayer-for-httpd player.html .htaccess
+</IfModule>
