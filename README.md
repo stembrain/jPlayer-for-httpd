@@ -18,3 +18,4 @@ The script in player.html then creates a jPlayer playlist of all the mp3s and hi
 
 - [jPlayer](https://github.com/happyworm/jPlayer)
 - [.htaccess guide](http://perishablepress.com/better-default-directory-views-with-htaccess/)
+- [iOS HTML5 media guide](http://developer.apple.com/library/safari/#documentation/AudioVideo/Conceptual/Using_HTML5_Audio_Video/ControllingMediaWithJavaScript/ControllingMediaWithJavaScript.html#//apple_ref/doc/uid/TP40009523-CH3-SW11)
